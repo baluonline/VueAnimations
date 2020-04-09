@@ -1,0 +1,3 @@
+<template>
+  <div class="alert alert-success">This is success message</div>
+</template>
