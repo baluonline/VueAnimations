@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <Animations msg="Welcome to Your Vue.js App"/>
+    <!-- <Animations msg="Welcome to Your Vue.js App"/> -->
+    <quiz-app />
   </div>
 </template>
 
 <script>
-import Animations from './components/Animations.vue'
+// import Animations from './components/Animations.vue';
+import QuizApp from './components/Quiz.vue';
 
 export default {
   name: 'app',
   components: {
-    Animations
+    // Animations,
+    'quiz-app':QuizApp
   }
 }
 </script>
