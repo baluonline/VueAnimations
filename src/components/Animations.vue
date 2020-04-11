@@ -1,5 +1,6 @@
 <template>
   <div class="col-8 container">
+    <router-link to="/"> Go back to quiz </router-link>
     <h1>{{msg}}</h1>
     <hr />
     <select v-model="alertAnimation" class="form-control">

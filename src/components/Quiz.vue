@@ -12,6 +12,7 @@
         </transition>
       </div>
     </div>
+    <router-link to="/animations"> Go to Animations </router-link>
   </div>
 </template>
 

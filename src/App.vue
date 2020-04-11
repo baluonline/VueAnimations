@@ -1,20 +1,19 @@
 <template>
   <div id="app">
-    <!-- <Animations msg="Welcome to Your Vue.js App"/> -->
-    <quiz-app />
+        <router-view></router-view>
   </div>
 </template>
 
 <script>
 // import Animations from './components/Animations.vue';
-import QuizApp from './components/Quiz.vue';
+// import QuizApp from './components/Quiz.vue';
 
 export default {
   name: 'app',
-  components: {
-    // Animations,
+  /* components: {
+    Animations,
     'quiz-app':QuizApp
-  }
+  } */
 }
 </script>
 
